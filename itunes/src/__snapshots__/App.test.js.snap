@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Searchbar renders correctly 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <div
+    className="searchbar"
+  >
+    <input
+      className="search"
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <select
+      className="search-dd"
+      onChange={[Function]}
+      value="music"
+    >
+      <option
+        value="music"
+      >
+        Music
+      </option>
+      <option
+        value="movie"
+      >
+        Movie
+      </option>
+      <option
+        value="podcast"
+      >
+        Podcast
+      </option>
+      <option
+        value="audiobook"
+      >
+        Audio Book
+      </option>
+      <option
+        value="shortFilm"
+      >
+        shortFilm
+      </option>
+      <option
+        value="tvShow"
+      >
+        Tv Show
+      </option>
+      <option
+        value="ebook"
+      >
+        Ebook
+      </option>
+      <option
+        value="all"
+      >
+        All
+      </option>
+    </select>
+    <button
+      className="search-btn"
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+  <div
+    className="grid-container"
+  />
+</div>
+`;

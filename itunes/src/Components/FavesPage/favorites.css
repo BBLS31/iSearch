@@ -1,0 +1,118 @@
+.header {
+  color: whitesmoke;
+  font-size: 5rem;
+  position: absolute;
+  top: -55px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid whitesmoke;
+  border-radius: 50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+.fave-cards {
+  background-image: url(../images/AdobeStock_364708242.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 5px solid rgba(194, 0, 0, 0);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 0 10px rgba(0, 0, 0, 0.792);
+  position: relative;
+  left: 110px;
+  top: 80px;
+}
+
+.faves-cardbody {
+  background-image: url(../images/AdobeStock_364708242.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.faves-title {
+  border-bottom: 5px solid whitesmoke;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.faves-deleteBtn {
+  background-image: url(../images/AdobeStock_364708242.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-weight: bold;
+  color: whitesmoke;
+  box-shadow: -5px 0 10px rgba(248, 245, 245, 0.9);
+  cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+    position: relative;
+    left: 100px;
+  }
+  .fave-cards {
+    left: 0;
+    top: 0;
+    margin-top: 200px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    right: 60px;
+    top: 105px;
+  }
+  .fave-cards {
+    left: 55px;
+    top: 40px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fave-cards {
+    left: 80px;
+    top: 60px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .fave-cards {
+    left: 110px;
+    top: 80px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .fave-cards {
+    left: 110px;
+    top: 80px;
+  }
+}

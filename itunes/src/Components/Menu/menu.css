@@ -1,0 +1,201 @@
+/* styles the button and links */
+.dropdown {
+  background-color: rgb(204, 20, 228);
+  position: relative;
+  left: 500px;
+  top: 40px;
+  height: 50px;
+  width: 200px;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.search-dropdown{
+  background-color: rgba(204, 20, 228, 0.47);
+   color: whitesmoke;
+    height: 50px;
+  width: 200px;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+  z-index: 9999;
+  position: relative;
+  left: 500px;
+  top: 38px;
+}
+
+.search-links{
+   background-color: rgba(245, 7, 166, 0.541);
+   color: black;
+  list-style: none;
+  border: 3px solid rgb(255, 196, 0);
+  border-radius: 5px;
+  text-align: center;
+  width: 160px;
+  position: relative;
+  left: 76.1%;
+  top: 41px;
+}
+
+
+.favorite-dropdown{
+   background-color: rgba(204, 20, 228, 0.47);
+   color: whitesmoke;
+    height: 50px;
+  width: 200px;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+  z-index: 9999;
+  position: relative;
+  left: 500px;
+  top: 38px;
+}
+
+.favorite-links{
+   background-color: rgba(245, 7, 166, 0.541);
+   color: black;
+  list-style: none;
+  border: 3px solid rgb(255, 196, 0);
+  border-radius: 5px;
+  text-align: center;
+  width: 160px;
+  position: relative;
+  left: 76.1%;
+  top: 41px;
+}
+
+.links {
+  background-color: rgba(245, 7, 166, 0.949);
+  color: black;
+  list-style: none;
+  border: 3px solid rgb(255, 196, 0);
+  border-radius: 5px;
+  text-align: center;
+  width: 160px;
+  position: absolute;
+  left: 1160px;
+  top: 90px;
+}
+
+/* link styles */
+li {
+  position: relative;
+  right: 40px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+li:nth-child(1):hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid blue;
+}
+
+li:nth-child(2):hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid blue;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(137, 15, 137);
+}
+
+a:visited {
+  color: rgb(11, 118, 137);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .dropdown, .search-dropdown, .favorite-dropdown {
+    left: 10px;
+    width: 90%;
+    top: 150px;
+  }
+  .search-links, .favorite-links, .links {
+    left: 10px;
+    width: 162px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .dropdown, .search-dropdown, .favorite-dropdown {
+    left: 20px;
+    width: 200px;
+    top: 130px;
+  }
+  .search-links, .favorite-links, .links {
+    left: 295px;
+    width: 162px;
+    top: 130px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .dropdown, .search-dropdown, .favorite-dropdown {
+    left: 30px;
+    width: 200px;
+  }
+  .search-links, .favorite-links, .links {
+    left: 30px;
+    width: 162px;
+    position: relative;
+    left: 310px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .dropdown, .search-dropdown, .favorite-dropdown {
+    left: 40px;
+    width: 200px;
+    position: relative;
+    left: 350px;
+    top: 38px;
+  }
+  .search-links, .favorite-links, .links {
+    left: 40px;
+    width: 162px;
+    position: relative;
+    left: 820px;
+    top: 42px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+  .dropdown, .search-dropdown, .favorite-dropdown {
+    left: 50px;
+    width: 200px;
+    position: relative;
+    left: 400px;
+  }
+  .search-links, .favorite-links, .links {
+    left: 50px;
+    width: 162px;
+    position: relative;
+    left: 1050px;
+    top: 42px;
+  }
+} 
