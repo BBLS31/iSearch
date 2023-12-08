@@ -1,7 +1,7 @@
-# Entertainment Corner instuctions
+# Isearch app instuctions
 
 ### How to download the project:
-* Open this link: https://github.com/BBLS31/Entertainment-Corner.git
+* Open this link: https://github.com/BBLS31/iSearch.git
 * Click the green button written "code"
 * When the options appear, choose "download zip"
 * When downloaded, extract the files from the zip folder
