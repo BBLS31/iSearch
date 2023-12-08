@@ -24,7 +24,7 @@ const SearchBar = () => {
   const search = async () => {
     try {
       const response = await axios.get(
-        `https://isearch-9u0t.onrender.com/search?term=${term}&media=${media}`
+        `https://isearch-api.onrender.com/search?term=${term}&media=${media}`
       );
       setResults(response.data.results);
     } catch (error) {
@@ -35,7 +35,7 @@ const SearchBar = () => {
   // Define a function to add a media item to favorites
   const addToFavorites = (result) => {
     axios
-      .post("https://isearch-9u0t.onrender.com/search", result)
+      .post("https://isearch-api.onrender.com/search", result)
       .then((response) => {
         console.log(response.data.message);
         setFavorites((prevFavorites) => ({

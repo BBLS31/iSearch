@@ -11,7 +11,7 @@ function Favorites() {
   // Use the useEffect hook to fetch data when the component mounts
   useEffect(() => {
     // Fetch the favorites data from the server
-    fetch("https://isearch-9u0t.onrender.com/favorites")
+    fetch("https://isearch-api.onrender.com/favorites")
       .then((response) => response.json())
       .then((data) => {
         // Update the 'favorites' state with the fetched data
@@ -26,7 +26,7 @@ function Favorites() {
   // Define a function to delete a favorite item
   const deleteFavorite = (item) => {
     // Send a DELETE request to the server
-    fetch("https://isearch-9u0t.onrender.com/delete", {
+    fetch("https://isearch-api.onrender.com/delete", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
